@@ -167,6 +167,10 @@ body {
     font-size: 28px;
     font-weight: 300;
 }
+#muselablogo {
+    padding-top: 50px;
+    width: 150px;
+}
 
 a:link{color:inherit;text-decoration:none;}
 a:visited{color:inherit;text-decoration:none;}
