@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
-
-body {
+ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
@@ -8,14 +7,13 @@ body {
     font-size: 1em;
     color: white;
 }
-
 #home {
     height: 100vh;
     background-image: url("/images/mp_bg_3.jpg");
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -25,7 +23,6 @@ body {
     align-items: center;
     -webkit-align-items: center;
 }
-
 .background {
     width: 100%;
     height: 100%;
@@ -39,7 +36,6 @@ body {
     -webkit-align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 #name {
     font-size: 4em;
     font-weight: 900;
@@ -48,13 +44,11 @@ body {
     line-height: 80px;
     text-align: center;
 }
-
 #role {
     font-size: 1.5em;
     font-weight: 300;
     text-align: center;
 }
-
 #releases {
     padding: 150px 0 150px 0;
     width: 100vw;
@@ -66,17 +60,18 @@ body {
     -webkit-justify-content: center;
     align-items: flex-start;
     -webkit-align-items: flex-start;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     color: grey;
     background-color: white;
     margin-bottom: 100vh;
 }
 .album {
-    width: 200px; 
+    width: 200px;
     height: 200px;
     //margin: 40px;
-}
 
+}
 .najazd {
     visibility: hidden;
     display: flex;
@@ -102,10 +97,9 @@ body {
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
-
 p.opis {
     font-size: 0.8em;
-    text-align:center;
+    text-align: center;
 }
 .zero {
     padding: 0;
@@ -115,15 +109,15 @@ p.opis {
     visibility: visible;
     opacity: 0.9;
 }
-
 #wybrane {
-    width: 200px; 
+    width: 200px;
     height: 198px;
     //margin: 40px;
     text-align: center;
     font-size: 40px;
     line-height: 60px;
- //   border: 1px solid grey;
+    //   border: 1px solid grey;
+
 }
 #smugi {
     background-image: url("/images/cover_sgpid.jpg");
@@ -140,7 +134,6 @@ p.opis {
 #gypsy {
     background-image: url("/images/cover_gypsy.jpg")
 }
-
 #contact {
     height: 100vh;
     min-height: 100vh;
@@ -158,14 +151,13 @@ p.opis {
     left: 0;
     bottom: 0;
     background-image: url("/images/mp_bg_1.jpg");
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    text-align:center;
-    margin-bottom: 0;   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 0;
 }
-
 #mobile {
     font-size: 28px;
     font-weight: 300;
@@ -181,28 +173,37 @@ p.opis {
     margin-top: 50px;
     width: 150px;
 }
- 
-a:link{color:inherit;text-decoration:none;}
-a:visited{color:inherit;text-decoration:none;}
-a:hover{color:inherit;text-decoration:none;}
-a:active{color:inherit;text-decoration:none;}
-
-span.reverse {
-  unicode-bidi: bidi-override;
-  direction: rtl;
+a:link {
+    color: inherit;
+    text-decoration: none;
 }
-
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+span.reverse {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
 .footer {
     width: 100%;
     position: fixed;
     bottom: 0;
     background-color: white;
-    height:25px;
-    font-size:0.6em;
-    font-weight:300;
-    color:black;
-    opacity:0.6;
-    text-align:center;
+    height: 25px;
+    font-size: 0.6em;
+    font-weight: 300;
+    color: black;
+    opacity: 0.6;
+    text-align: center;
     line-height: 25px;
     margin-bottom: 0;
 }
