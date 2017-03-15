@@ -9,7 +9,7 @@
 }
 #home {
     height: 100vh;
-    background-image: url("/images/mp_bg_3.jpg");
+    background-image: url("../images/mp_bg_3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,8 +69,6 @@
 .album {
     width: 200px;
     height: 200px;
-    //margin: 40px;
-
 }
 .najazd {
     visibility: hidden;
@@ -116,23 +114,21 @@ p.opis {
     text-align: center;
     font-size: 40px;
     line-height: 60px;
-    //   border: 1px solid grey;
-
 }
 #smugi {
-    background-image: url("/images/cover_sgpid.jpg");
+    background-image: url("../images/cover_sgpid.jpg");
 }
 #nazjezdzie {
-    background-image: url("/images/cover_na_zjezdzie.jpg");
+    background-image: url("../images/cover_na_zjezdzie.jpg");
 }
 #love {
-    background-image: url("/images/cover_love.jpg");
+    background-image: url("../images/cover_love.jpg");
 }
 #gh {
-    background-image: url("/images/cover_gh.jpg");
+    background-image: url("../images/cover_gh.jpg");
 }
 #gypsy {
-    background-image: url("/images/cover_gypsy.jpg")
+    background-image: url("../images/cover_gypsy.jpg")
 }
 #contact {
     height: 100vh;
@@ -150,7 +146,7 @@ p.opis {
     -webkit-justify-content: center;
     left: 0;
     bottom: 0;
-    background-image: url("/images/mp_bg_1.jpg");
+    background-image: url("../images/mp_bg_1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
