@@ -121,20 +121,37 @@ p.opis {
     font-size: 40px;
     line-height: 60px;
 }
+#sos {
+    background-image: url("../images/cm_sos.png");
+    background-size: cover;
+}
+#so-flow {
+    background-image: url("../images/soflow_front.jpg");
+    background-size: cover;
+}
+#so-slow {
+    background-image: url("../images/cm_soslow.jpg");
+    background-size: cover;
+}
+#simple-pleasures {
+    background-image: url("../images/sp_johnny.jpg");
+    background-size: cover;
+}
 #smugi {
     background-image: url("../images/cover_sgpid.jpg");
+    background-size: cover;
 }
 #nazjezdzie {
     background-image: url("../images/cover_na_zjezdzie.jpg");
+    background-size: cover;
 }
 #love {
     background-image: url("../images/cover_love.jpg");
-}
-#gh {
-    background-image: url("../images/cover_gh.jpg");
+    background-size: cover;
 }
 #gypsy {
-    background-image: url("../images/cover_gypsy.jpg")
+    background-image: url("../images/cover_gypsy.jpg");
+    background-size: cover;
 }
 #contact {
     height: 100vh;
